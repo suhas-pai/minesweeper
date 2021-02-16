@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#app {
+  align-content: center;
+  justify-content: center;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 0.5rem;
+}
+
+.grid_item {
+  border: red solid;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  border-radius: 0.5rem;
+}
+
+.grid_item:hover {
+  background-color: red;
+}
+
+.game_over {
+  display: flex;
+  justify-content: center;
+  font-size: 96px;
+  margin-bottom: 10px;
+}
+
+#restart_button {
+  display: none;
+}
